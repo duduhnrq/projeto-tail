@@ -53,7 +53,7 @@ div.imagem {
     padding-bottom: 31vh;
 }
 
-div.imagem a {
+div.imagem p {
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -68,7 +68,7 @@ div.imagem a {
     transition-duration: .5s;
 }
 
-div.imagem a:hover {
+div.imagem p:hover {
     color: white;
     background-color: black;
 }
@@ -118,7 +118,7 @@ div.mockup img:hover {
 
 div.texto {
     padding-top: 10px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     padding-left: 480px;
     padding-right: 480px;
     text-align: center;
@@ -127,6 +127,32 @@ div.texto {
 div.texto p {
     text-align: center;
     font-family: nunitosans;
+}
+
+div.shop {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+div.shop a {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-family: nunitosans;
+    font-size: 12px; 
+    border-radius: 0px;
+    transition-duration: .5s;
+}
+
+div.shop a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 footer {
