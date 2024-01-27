@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: quicksand;
+    src: url(fontes/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: nunitosans;
+    src: url(fontes/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: ebgaramond;
+    src: url(fontes/EBGaramond-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    margin: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.144);
+    text-align: center;
+}
+
+nav a {
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    transition-duration: .5s;
+    font-size: 11px;
+    font-family: quicksand;
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.329);    
+}
+
+div.imagem {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 31vh;
+    padding-bottom: 31vh;
+}
+
+div.imagem a {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-family: nunitosans;
+    font-size: 12px; 
+    border-radius: 0px;
+    transition-duration: .5s;
+}
+
+div.imagem a:hover {
+    color: white;
+    background-color: black;
+}
+
+div.imagem h1{
+    font-family: ebgaramond;
+    font-size: 70px;
+    padding: 70px;
+}
+
+div#imagem1 {
+    background-image: url(../imagens/imagem1.jpg);
+    background-position: right center;
+}
+
+div#imagem1 img {
+    max-width: 200px;
+}
+
+div.drop {
+    padding: 20px;
+    display: inline-block;
+}
+
+div.drop h1 {
+    font-size: 20px;
+    font-family: nunitosans;
+}
+
+div.drop h2 {
+    font-size: 30px;
+    font-family: ebgaramond;
+}
+
+div.mockup {
+    text-align: center;
+}
+
+div.mockup img {
+    max-width: 600px;
+    transition-duration: .5s;
+}
+
+div.mockup img:hover {
+    max-width: 620px;
+}
+
+div.texto {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 480px;
+    padding-right: 480px;
+    text-align: center;
+}
+
+div.texto p {
+    text-align: center;
+    font-family: nunitosans;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: nunitosans;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
