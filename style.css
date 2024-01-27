@@ -20,6 +20,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -53,7 +57,7 @@ div.imagem {
     padding-bottom: 31vh;
 }
 
-div.imagem p {
+div.imagem a {
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -68,7 +72,7 @@ div.imagem p {
     transition-duration: .5s;
 }
 
-div.imagem p:hover {
+div.imagem a:hover {
     color: white;
     background-color: black;
 }
@@ -152,7 +156,7 @@ div.shop a {
 div.shop a:hover {
     background-color: white;
     color: black;
-    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 }
 
 footer {
