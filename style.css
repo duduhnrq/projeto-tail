@@ -187,3 +187,82 @@ div#imagem2 {
 div#imagem2 img {
     max-width: 200px;
 }
+
+/* Página 'SOCIAL MEDIA' */
+
+nav.social {
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    margin: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.144);
+    text-align: center;
+}
+
+nav.social a {
+    color: white;
+}
+
+div.imagem3 {
+    background-color: white);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 31vh;
+    padding-bottom: 259px;
+}
+
+div.imagem3 h1 {
+    color: black;
+    padding: 30px;
+    font-family: nunitosans;
+}
+
+div#imagem3 img {
+    max-width: 200px;
+}
+
+div.imagem3 a#insta {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-family: nunitosans;
+    font-size: 12px; 
+    border-radius: 0px;
+    transition-duration: .5s;
+}
+
+div.imagem3 a#yt {
+    margin: 30px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 67px;
+    padding-right: 67px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-family: nunitosans;
+    font-size: 12px; 
+    border-radius: 0px;
+    transition-duration: .5s;
+}
+
+div.imagem3 a#insta:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+}
+
+div.imagem3 a#yt:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+}
