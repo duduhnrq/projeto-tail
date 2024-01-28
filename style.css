@@ -121,11 +121,10 @@ div.mockup img:hover {
 }
 
 div.texto {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    padding-left: 480px;
-    padding-right: 480px;
+    margin: auto;
+    padding: 20px;
     text-align: center;
+    max-width: 900px;
 }
 
 div.texto p {
