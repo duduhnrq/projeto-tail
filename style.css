@@ -112,12 +112,12 @@ div.mockup {
 }
 
 div.mockup img {
-    max-width: 600px;
+    max-width: 440px;
     transition-duration: .5s;
 }
 
 div.mockup img:hover {
-    max-width: 620px;
+    max-width: 460px;
 }
 
 div.texto {
