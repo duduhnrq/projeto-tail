@@ -15,6 +15,11 @@
     src: url(fontes/EBGaramond-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: whispers;
+    src: url(fontes/NostalgicWhispers-Regular.ttf);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -78,7 +83,8 @@ div.imagem a:hover {
 }
 
 div.imagem h1{
-    font-family: ebgaramond;
+    font-family: whispers;
+    font-weight: 1;
     font-size: 70px;
     padding: 70px;
     margin: auto;
@@ -105,7 +111,8 @@ div.drop h1 {
 
 div.drop h2 {
     font-size: 30px;
-    font-family: ebgaramond;
+    font-weight: 1;
+    font-family: whispers;
 }
 
 div.mockup {
