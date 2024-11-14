@@ -92,7 +92,7 @@ div.imagem h1{
 
 div#imagem1 {
     background-image: url(../imagens/imagem1.jpg);
-    background-position: right center;
+    background-position: center;
 }
 
 div#imagem1 img {
