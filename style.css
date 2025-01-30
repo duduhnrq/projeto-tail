@@ -75,6 +75,7 @@ div.imagem a {
     font-size: 12px; 
     border-radius: 0px;
     transition-duration: .5s;
+    border-radius: 10px;
 }
 
 div.imagem a:hover {
@@ -158,6 +159,7 @@ div.shop a {
     font-size: 12px; 
     border-radius: 0px;
     transition-duration: .5s;
+    border-radius: 10px;
 }
 
 div.shop a:hover {
@@ -212,7 +214,7 @@ nav.social a {
 }
 
 div.imagem3 {
-    background-color: white);
+    background-color: white;
     color: white;
     background-size: cover;
     background-attachment: fixed;
@@ -224,7 +226,7 @@ div.imagem3 {
 div.imagem3 h1 {
     color: black;
     padding: 30px;
-    font-family: nunitosans;
+    font-family: whispers;
 }
 
 div#imagem3 img {
@@ -244,6 +246,7 @@ div.imagem3 a#insta {
     font-size: 12px; 
     border-radius: 0px;
     transition-duration: .5s;
+    border-radius: 10px;
 }
 
 div.imagem3 a#yt {
@@ -260,6 +263,7 @@ div.imagem3 a#yt {
     font-size: 12px; 
     border-radius: 0px;
     transition-duration: .5s;
+    border-radius: 10px;
 }
 
 div.imagem3 a#insta:hover {
