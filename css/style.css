@@ -52,7 +52,7 @@ nav a:hover {
     color: rgba(0, 0, 0, 0.329);    
 }
 
-div.imagem {
+.imagem {
     background-color: rgb(54, 54, 54);
     color: white;
     background-size: cover;
@@ -62,7 +62,7 @@ div.imagem {
     padding-bottom: 31vh;
 }
 
-div.imagem a {
+.imagem a {
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -78,12 +78,12 @@ div.imagem a {
     border-radius: 10px;
 }
 
-div.imagem a:hover {
+.imagem a:hover {
     color: white;
     background-color: black;
 }
 
-div.imagem h1{
+.imagem h1{
     font-family: whispers;
     font-weight: 1;
     font-size: 70px;
@@ -91,62 +91,76 @@ div.imagem h1{
     margin: auto;
 }
 
-div#imagem1 {
+#imagem1 {
     background-image: url(../imagens/imagem1.jpg);
     background-position: center;
 }
 
-div#imagem1 img {
+#imagem1 img {
     max-width: 200px;
 }
 
-div.drop {
+.drop {
     padding: 20px;
     display: inline-block;
 }
 
-div.drop h1 {
+.drop h1 {
     font-size: 20px;
     font-family: nunitosans;
 }
 
-div.drop h2 {
+.drop h2 {
     font-size: 30px;
     font-weight: 1;
     font-family: whispers;
 }
 
-div.mockup {
+.mockup {
     text-align: center;
 }
 
-div.mockup img {
+.mockup img {
     max-width: 440px;
     transition-duration: .5s;
 }
 
-div.mockup img:hover {
+.mockup img:hover {
     max-width: 460px;
 }
 
-div.texto {
+.texto {
     margin: auto;
     padding: 20px;
     text-align: center;
     max-width: 900px;
 }
 
-div.texto p {
+.texto p {
     text-align: center;
     font-family: nunitosans;
 }
 
-div.shop {
+.texto a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.texto a:hover {
+    text-decoration: underline;
+}
+
+.shop {
     text-align: center;
     padding-bottom: 30px;
 }
 
-div.shop a {
+.shop strong {
+    font-weight: bold;
+}
+
+.shop a {
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -162,7 +176,7 @@ div.shop a {
     border-radius: 10px;
 }
 
-div.shop a:hover {
+.shop a:hover {
     background-color: white;
     color: black;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
@@ -172,8 +186,8 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
-    font-family: nunitosans;
+    padding: 20px;
+    font-family: sans-serif;
 }
 
 footer a {
@@ -188,12 +202,12 @@ footer a:hover {
 
 /* Página 'SHOP' */
 
-div#imagem2 {
+#imagem2 {
     background-image: url(../imagens/imagem3.jpg);
     background-position: right center;
 }
 
-div#imagem2 img {
+#imagem2 img {
     max-width: 200px;
 }
 
@@ -213,27 +227,30 @@ nav.social a {
     color: white;
 }
 
-div.imagem3 {
-    background-color: white;
-    color: white;
-    background-size: cover;
-    background-attachment: fixed;
+.container {
+    width: 400px;
+    height: calc(100vh - 178px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 31vh;
-    padding-bottom: 259px;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-div.imagem3 h1 {
+.container h1 {
     color: black;
     padding: 30px;
     font-family: whispers;
 }
 
-div#imagem3 img {
+.container img {
     max-width: 200px;
 }
 
-div.imagem3 a#insta {
+.container a#insta {
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -249,13 +266,9 @@ div.imagem3 a#insta {
     border-radius: 10px;
 }
 
-div.imagem3 a#yt {
-    margin: 30px;
+.container a#yt {
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 67px;
-    padding-right: 67px;
+    padding: 20px 66px 20px 66px;
     background-color: black;
     text-decoration: none;
     color: white;
@@ -266,14 +279,18 @@ div.imagem3 a#yt {
     border-radius: 10px;
 }
 
-div.imagem3 a#insta:hover {
+.container a#insta:hover {
     background-color: white;
     color: black;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 }
 
-div.imagem3 a#yt:hover {
+.container a#yt:hover {
     background-color: white;
     color: black;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+}
+
+.btn a {
+    margin: 10px;
 }
